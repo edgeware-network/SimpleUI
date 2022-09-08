@@ -20,7 +20,7 @@ module.exports = merge(
       new CopyWebpackPlugin({ patterns: [{ from: '../apps/public' }] }),
       new HtmlWebpackPlugin({
 //        PAGE_TITLE: 'Polkadot/Substrate Portal',
-        PAGE_TITLE: 'EdgeApps',
+        PAGE_TITLE: 'SimpleUI: EdgeApps',
         inject: true,
         template: path.join(context, '../apps/public/index.html')
       })
