@@ -18,7 +18,7 @@ module.exports = merge(
     plugins: [
       new HtmlWebpackPlugin({
 //        PAGE_TITLE: 'Polkadot/Substrate Portal',
-        PAGE_TITLE: 'EdgeApps',
+        PAGE_TITLE: 'SimpleUI: EdgeApps',
         inject: true,
         template: path.join(context, `${hasPublic ? 'public/' : ''}index.html`)
       })
