@@ -25,7 +25,7 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
         JelliedOwl: 'wss://edgeware.jelliedowl.net',
         'Commonwealth Labs': 'wss://mainnet3.edgewa.re',        
         OnFinality: 'wss://edgeware.api.onfinality.io/public-ws',
-        Dwelllir: 'wss://edgeware-rpc.dwellir.com'
+        Dwellir: 'wss://edgeware-rpc.dwellir.com'
       }
     },
     {
